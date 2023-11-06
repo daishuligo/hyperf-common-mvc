@@ -1,0 +1,25 @@
+{
+  "name": "lg-yuechuan/hyperf-common-mvc",
+  "description": "Hyperf框架mvc基类",
+  "license": "MIT",
+  "keywords": [
+    "php",
+    "hyperf",
+    "common-mvc"
+  ],
+  "require": {
+    "php": ">=8.0",
+    "hyperf/db-connection": "~3.0.0",
+    "hyperf/http-server": "~3.0.0",
+    "hyperf/translation": "~3.0.0",
+    "hyperf/logger": "~3.0.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "YueChuan\\": "src/"
+    }
+  },
+  "config": {
+    "sort-packages": true
+  }
+}
